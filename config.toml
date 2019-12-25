@@ -1,4 +1,4 @@
 baseURL = "https://winding-lines.github.io/"
 languageCode = "en-us"
-title = "Technical Notes"
+title = "Winding notes"
 theme = "slick"

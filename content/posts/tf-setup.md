@@ -1,7 +1,8 @@
 ---
-title: "TensorFlow Local Install"
+title: "TensorFlow Install"
 slug: tf-setup
-description: null
+description: "Unpack the TF installation steps"
+summary: "How does TF install itself and its dependencies on your local dev system?"
 date: 2019-12-25T05:59:28-08:00
 type: posts
 draft: false
@@ -13,7 +14,10 @@ series:
   -
 ---
 
-## Introduction
+
+
+
+## Intro
 
 This post describes the dependencies and the steps through which
 Tensorflow (TF) gets installed on your development machine. We go in details of the underlying implementation. 
@@ -22,9 +26,9 @@ For an end user you may be better served to use the docker image or [conda](http
 
 The instructions to install Tensorflow (TF) are here (instructions)[https://www.tensorflow.org/install].
 
-## pip
+## The pip ecosystem
 
-In order to install Tensorflow you need to have pip 19 or better, you can see the changes in the [pip changelog](https://pip.pypa.io/en/stable/news/).
+In order to install Tensorflow you need to have pip 19 or better, where pip is a part of the python ecosystem. you can see the changes in the [pip changelog](https://pip.pypa.io/en/stable/news/).
 
 ## pip 19
 
