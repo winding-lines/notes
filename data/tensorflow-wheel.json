@@ -1,0 +1,13 @@
+[
+{ "ext":".py", "count":1510, "name": "tensorflow_core/python/ops/gen_nn_ops.py", "size": 738.56 }
+,
+{ "ext":".h", "count":2219, "name": "tensorflow_core/include/Eigen/src/misc/lapacke.h", "size": 1033.56 }
+,
+{ "ext":".dylib", "count":3, "name": "tensorflow_core/libtensorflow_framework.2.0.0.dylib", "size": 27937.71 }
+,
+{ "ext":".so", "count":7, "name": "tensorflow_core/python/_pywrap_tensorflow_internal.so", "size": 321594.80 }
+,
+{ "ext":".inc", "count":25, "name": "tensorflow_core/include/google/protobuf/test_util.inc", "size": 123.58 }
+,
+{ "ext":".c", "count":75, "name": "tensorflow_core/include/external/boringssl/src/third_party/fiat/p256.c", "size": 80.71 }
+]

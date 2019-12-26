@@ -1,0 +1,30 @@
+{{ $arg := .Get 0 }}
+{{ $dataFile := index .Site.Data $arg }}
+{{ $.Scratch.Set "count" 0 }}
+
+    </tr>
+<table>
+    <tr>
+        <th>Ext</th>
+        <th>Files</th>
+        <th>Largest file</th>
+        <th>Size [kB]</th>
+    </tr>
+{{ range $dataFile }}  
+  <tr>
+    <td> 
+        {{ .ext }}
+    </td>
+    <td style="text-align: left;">
+        {{ .count }}
+    </td>
+    <td>
+        {{ .name }}
+    </td>
+    <td style="text-align: right;">
+        {{ .size }}
+    </td>
+  </tr>
+{{ end }}
+</table>
+

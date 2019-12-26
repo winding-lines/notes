@@ -1,6 +1,6 @@
 ---
 title: "TensorFlow Install"
-slug: tf-setup
+slug: tf-install
 description: "Unpack the TF installation steps"
 summary: "How does TF install itself and its dependencies on your local dev system?"
 date: 2019-12-25T05:59:28-08:00
@@ -9,52 +9,31 @@ draft: false
 categories:
   - General
 tags:
-  -
+  - ai
 series:
   -
 ---
 
 
+Dependencies and steps through which Tensorflow (TF) gets installed on your development machine. 
+
+<!--more-->
 
 
 ## Intro
 
-This post describes the dependencies and the steps through which
-Tensorflow (TF) gets installed on your development machine. We go in details of the underlying implementation. 
-
-For an end user you may be better served to use the docker image or [conda](https://docs.conda.io/en/latest/).
-
-This post will focus on installing for local dev. In order keep your environment clean you should setup and activate a [venv](https://docs.python.org/3/library/venv.html).
-
-The instructions to install Tensorflow (TF) are here
+As of Dec 2019, the instructions to install Tensorflow (TF) are here
 [instructions](https://www.tensorflow.org/install) and one should run:
 
 ```
-
 $  pip install tensorflow
-
 ```
 
-## pip
-
-The starting point to the Tensorflow installation is (pip)[https://pip.pypa.io/en/stable/], the package manager in the python ecosystem.
-
-As per the documentation pip is taking the following steps:
-
-1. Identify the base requirements. The user supplied arguments are processed here.
-
-2. Resolve dependencies. What will be installed is determined here.
-
-3. Build wheels. All the dependencies that can be are built into wheels.
-
-4. Install the packages (and uninstall anything being upgraded/replaced).
+To learn more about pip see the (pip note)[{{< ref "/notes/python-packages.md">}},
 
 ## wheels
 
-When searching for `tensorflow` on pypi you will see that the [download files](https://pypi.org/project/tensorflow/#files) have the extension `whl`. 
-These are [wheel](https://wheel.readthedocs.io/en/stable/) files, zip files with a custom extension and are defined in [PEP-0427](https://www.python.org/dev/peps/pep-0427/)
-
-For python 3.7 there are 3 files
+For python 3.7 TF is provided through 3 [files](https://pypi.org/project/tensorflow/#files), one per operating system:
 
 * tensorflow-2.0.0-cp37-cp37m-macosx_10_11_x86_64.whl 
 * tensorflow-2.0.0-cp37-cp37m-manylinux2010_x86_64.whl 
@@ -64,7 +43,9 @@ The `manylinux2010`  is platform tag which allows binary wheels to be installed 
 
 ### Structure of the macos wheel
 
-The macos wheel contains 4764 files out of which 1513 py files, 2239 header files + 121 C files that need to be compiled. Note that installing a python file from a wheel should not involve the build system at all so it's not clear what the C files are for.
+The macos wheel contains the following files:
+
+{{< fileSummary "tensorflow-wheel" >}}
 
  These files are split amongst the following top-level folders:
 
@@ -76,6 +57,7 @@ The macos wheel contains 4764 files out of which 1513 py files, 2239 header file
 The wheel contains the following pre-compiled libraries:
 
 * tensorflow_core/python/_pywrap_tensorflow_internal.so, biggest file at 32MB
+* tensorflow_core/libtensorflow_framework.dylib
 * tensorflow_core/compiler/tf2tensorrt/_wrap_py_utils.so
 * tensorflow_core/compiler/tf2xla/ops/_xla_ops.so
 * tensorflow_core/lite/experimental/microfrontend/python/ops/_audio_microfrontend_op.so
@@ -92,7 +74,7 @@ It has the following outside dependencies:
 * keras-applications (>=1.0.8)
 * keras-preprocessing (>=1.0.5)
 * numpy (<2.0,>=1.16.0)
-* opt-einsum (>=2.3.2)
+* opt-einsum (>=2.3.2): optimize einsum chains
 * six (>=1.10.0)
 * protobuf (>=3.6.1)
 * tensorboard (<2.1.0,>=2.0.0)

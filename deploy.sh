@@ -5,6 +5,11 @@ set -e
 
 printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
+
+if [ ! -d themes/slick ] ; then
+  git submodule update --init --recursive
+fi
+
 # Build the project.
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 

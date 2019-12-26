@@ -1,0 +1,17 @@
+[
+{ "ext":".py", "count":881, "name": "torch/_torch_docs.py", "size": 222.09 }
+,
+{ "ext":".dylib", "count":9, "name": "torch/lib/libtorch.dylib", "size": 191035.35 }
+,
+{ "ext":".so", "count":3, "name": "caffe2/python/caffe2_pybind11_state.cpython-37m-darwin.so", "size": 2094.53 }
+,
+{ "ext":".pyi", "count":46, "name": "torch/__init__.pyi", "size": 113.13 }
+,
+{ "ext":".h", "count":1092, "name": "torch/include/ATen/Functions.h", "size": 960.79 }
+,
+{ "ext":".cuh", "count":6, "name": "torch/include/ATen/cuda/CUDAApplyUtils.cuh", "size": 49.27 }
+,
+{ "ext":".hpp", "count":5, "name": "torch/include/TH/THTensor.hpp", "size": 5.01 }
+,
+{ "ext":".cmake", "count":29, "name": "torch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindCUDA.cmake", "size": 86.06 }
+]
