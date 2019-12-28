@@ -19,7 +19,9 @@ The package manager in the python ecosystem is pip.
 
 ## Intro
 
-As per the (documentation)[https://pip.pypa.io/en/stable/] pip is taking the following steps:
+For an overview of installing packages in python head over to the [tutorial](https://packaging.python.org/tutorials/installing-packages).
+
+As per the [documentation](https://pip.pypa.io/en/stable/) pip is taking the following steps:
 
 1. Identify the base requirements. The user supplied arguments are processed here.
 
