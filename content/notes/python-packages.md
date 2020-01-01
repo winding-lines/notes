@@ -45,3 +45,9 @@ Complex packages like as ML frameworks have a lot of dependencies. In some cases
 When searching for `tensorflow` on pypi you will see that the  have the extension `whl`. 
 These are [wheel](https://wheel.readthedocs.io/en/stable/) files, zip files with a custom extension and are defined in [PEP-0427](https://www.python.org/dev/peps/pep-0427/)
 
+## Binary dependencies
+
+Some of the python magic is achieved through binary dependencies. Some of the tools used to bring those in the interpreter are:
+
+* [ctypes](https://docs.python.org/3/library/ctypes.html) - loads shared libraries using the Foreing Function Interface (FFI)
+* [cython](https://cython.org/) -  optimising static compiler for both the Python programming language and the extended Cython programming language.

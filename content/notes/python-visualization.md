@@ -2,6 +2,13 @@
 title: "Python Visualization"
 date: 2020-01-01T06:31:59-08:00
 draft: false
+type: notes
+categories:
+  - General
+tags:
+  - visualization
+series:
+  -
 ---
 
 Notes about 3D python visualization packages.
