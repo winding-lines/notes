@@ -4,7 +4,7 @@ slug: argoverse
 description: null
 date: 2019-12-28T06:51:08-08:00
 type: posts
-draft: false
+draft: true
 categories:
 - General
 tags:
@@ -13,7 +13,7 @@ series:
 -
 ---
 
-These are notes from the Argoverse competition with the goal of providing curated datasets and high-definition (HD) maps designed to support advancements in computer vision and machine learning.
+These are notes from the Argoverse competition. Argoverse aims to provide curated datasets and high-definition (HD) maps designed to support advancements in computer vision and machine learning.
 
 <!--more-->
 The main site is here [Argoverse](https://www.argoverse.org).

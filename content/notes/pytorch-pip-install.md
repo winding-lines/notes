@@ -26,14 +26,14 @@ $  pip install torch torchvision
 
 To learn more about pip see the [pip note]({{< ref "/notes/python-packages.md">}}).
 
-## wheels for torch
+## Wheels for torch
 
-For python 3.7 Pytorch is provided through 2 [files](https://pypi.org/project/tensorflow/#files), one per operating system:
+For python 3.7 Pytorch is provided through 2 [files](https://pypi.org/project/torch/#files), one per operating system:
 
 * torch-1.3.1-cp37-cp37m-manylinux1_x86_64.whl
 * torch-1.3.1-cp37-none-macosx_10_7_x86_64.whl
 
-As opposed to TF there is no support wheel for windows.
+As opposed to TF there is no support wheel for windows. Also TF uses the newer manylinux2010 platform tag.
 
 
 ### File summary
@@ -41,3 +41,12 @@ As opposed to TF there is no support wheel for windows.
 This is a summary of the files in the macos wheel.
 
 {{< fileSummary "torch-wheel" >}}
+
+
+### Outside dependencies
+
+As opposed to [TF]({{< ref "/notes/tf-pip-install.md" >}}), Pytorch only has one external dependency. 
+
+* numpy
+
+Also CUDA support is provided in the base install.
