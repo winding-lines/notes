@@ -43,7 +43,9 @@ Complex packages like as ML frameworks have a lot of dependencies. In some cases
 ## Wheels
 
 When searching for `tensorflow` on pypi you will see that the  have the extension `whl`. 
-These are [wheel](https://wheel.readthedocs.io/en/stable/) files, zip files with a custom extension and are defined in [PEP-0427](https://www.python.org/dev/peps/pep-0427/)
+These are [wheel](https://wheel.readthedocs.io/en/stable/) files, zip files with a custom extension and are defined in [PEP-0427](https://www.python.org/dev/peps/pep-0427/).
+
+When building wheels for multiple linux architectures it can be beneficial to use [manylinux](https://github.com/pypa/manylinux).
 
 ## Binary dependencies
 
