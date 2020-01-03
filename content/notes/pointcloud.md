@@ -13,11 +13,9 @@ series:
 -
 ---
 
-A point cloud is a set of data points in space.
+A [point cloud](https://en.wikipedia.org/wiki/Point_cloud) is a set of data points in space.
 
 <!--more-->
-
-[wikipedia](https://en.wikipedia.org/wiki/Point_cloud)
 
 ## Libraries 
 
