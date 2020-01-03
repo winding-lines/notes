@@ -61,12 +61,14 @@ Pros: easy to compile
 Cons: no python bindings?
 
 ### Open3d
+
 "A modern library for 3D processing"
 
 Links:
 
 * site: http://www.open3d.org/
 * repo: https://github.com/intel-isl/Open3D
+* intro: http://www.open3d.org/docs/release/tutorial/Basic/pointcloud.html
 
 ## Algorithms
 
