@@ -47,6 +47,11 @@ These are [wheel](https://wheel.readthedocs.io/en/stable/) files, zip files with
 
 When building wheels for multiple linux architectures it can be beneficial to use [manylinux](https://github.com/pypa/manylinux).
 
+## Setuptools
+
+From [Read the docs](https://setuptools.readthedocs.io/en/latest/setuptools.html): "Setuptools is a collection of enhancements to the Python distutils that allow developers to more easily build and distribute Python packages, especially ones that have dependencies on other packages." The documentation page mentions that setuptools is used to build Python egg distributable which seems to be deprecated in favor of wheels.
+
+
 ## Binary dependencies
 
 Some of the python magic is achieved through binary dependencies. Some of the tools used to bring those in the interpreter are:
