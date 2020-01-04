@@ -68,6 +68,9 @@ Links:
 * repo: https://github.com/intel-isl/Open3D
 * intro: http://www.open3d.org/docs/release/tutorial/Basic/pointcloud.html
 
+Cons:
+* does not seem to have an implementation of Generalized ICP.
+
 ## Algorithms
 
 [Iterative Closest
