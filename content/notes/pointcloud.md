@@ -80,3 +80,10 @@ algorithms implemented by PCL
  
 
 A related approach is [Real time correlative scan matching](https://april.eecs.umich.edu/media/pdfs/olson2009icra.pdf)
+
+
+## Data formats
+
+* pcd: http://pointclouds.org/documentation/tutorials/pcd_file_format.php
+* ply: https://en.wikipedia.org/wiki/PLY_(file_format)
+* stl: https://en.wikipedia.org/wiki/STL_(file_format)

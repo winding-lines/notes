@@ -10,7 +10,10 @@ tags:
 series:
 ---
 
-AI related
+"CUDA (Compute Unified Device Architecture) is a parallel computing platform
+and application programming interface (API) model created by Nvidia"
+[wikipedia](https://en.wikipedia.org/wiki/CUDA)
+<!--more-->
 
 * [cudnn](https://developer.nvidia.com/cudnn) GPU-accelerated library of primitives for deep neural networks
 
