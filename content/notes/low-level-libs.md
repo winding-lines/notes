@@ -15,4 +15,6 @@ Frequently use lower level libraries: numerical, multi processing.
 * [Eigen](https://eigen.tuxfamily.org)
   - Inside Eigen: https://eigen.tuxfamily.org/dox/TopicInsideEigenExample.html
 
-* [OpenMP](https://en.wikipedia.org/wiki/OpenMP): application programming interface (API) that supports multi-platform shared memory multiprocessing programming in C, C++, and Fortran, on many platforms
+* [OpenMP]: 
+  - [wikipedia](https://en.wikipedia.org/wiki/OpenMP): application programming interface (API) that supports multi-platform shared memory multiprocessing programming in C, C++, and Fortran, on many platforms
+  - [intel's guide](https://software.intel.com/en-us/articles/getting-started-with-openmp)
