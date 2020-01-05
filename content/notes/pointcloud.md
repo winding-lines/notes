@@ -33,6 +33,8 @@ Dependencies:
 Cons:
 * transitive dependencies can be hard to install
 
+See an example [Dockerfile](https://gist.github.com/winding-lines/2d61189226df8193eeec4669b57d764d).
+
 ### Cilantro
 
 "A lean C++ library for working with point cloud data "
