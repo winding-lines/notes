@@ -52,10 +52,12 @@ When building wheels for multiple linux architectures it can be beneficial to us
 From [Read the docs](https://setuptools.readthedocs.io/en/latest/setuptools.html): "Setuptools is a collection of enhancements to the Python distutils that allow developers to more easily build and distribute Python packages, especially ones that have dependencies on other packages." The documentation page mentions that setuptools is used to build Python egg distributable which seems to be deprecated in favor of wheels.
 
 
-## Binary dependencies
+## Going native
 
 Some of the python magic is achieved through binary dependencies. Some of the tools used to bring those in the interpreter are:
 
 * [ctypes](https://docs.python.org/3/library/ctypes.html) - loads shared libraries using the Foreing Function Interface (FFI)
 * [cython](https://cython.org/) -  optimising static compiler for both the Python programming language and the extended Cython programming language
 * [pybind11](https://github.com/pybind/pybind11) - seamless operability between C++11 and Python
+* [numba](http://numba.pydata.org/numba-doc/latest/index.html)
+   - http://gouthamanbalaraman.com/blog/optimizing-python-numba-vs-cython.html
