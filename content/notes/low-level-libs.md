@@ -15,6 +15,17 @@ Frequently use lower level libraries: numerical, multi processing.
 * [Eigen](https://eigen.tuxfamily.org)
   - Inside Eigen: https://eigen.tuxfamily.org/dox/TopicInsideEigenExample.html
 
-* [OpenMP]: 
+* OpenMP: 
   - [wikipedia](https://en.wikipedia.org/wiki/OpenMP): application programming interface (API) that supports multi-platform shared memory multiprocessing programming in C, C++, and Fortran, on many platforms
   - [intel's guide](https://software.intel.com/en-us/articles/getting-started-with-openmp)
+
+
+* [NCCL](https://github.com/NVIDIA/nccl):  Optimized primitives for collective multi-GPU communication
+  * [documentation](https://docs.nvidia.com/deeplearning/sdk/nccl-developer-guide/index.html)
+  * operations (ring algorithms):
+
+      * all-reduce
+      * all-gather
+      * reduce-scatter
+      * reduce
+      * broadcast
