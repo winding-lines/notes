@@ -22,6 +22,7 @@ Dependencies and steps through which Tensorflow (TF) gets installed on your deve
 
 ## Intro
 
+
 As of Dec 2019, the instructions to install Tensorflow (TF) are here
 [instructions](https://www.tensorflow.org/install) and one should run:
 
@@ -85,3 +86,7 @@ It has the following outside dependencies:
 * wheel (>=0.26)
 * backports.weakref (>=1.0rc1); python_version < "3.4"
 * enum34 (>=1.1.6); python_version < "3.4"
+
+## Related
+
+Tensorflow internals: https://github.com/horance-liu/tensorflow-internals
