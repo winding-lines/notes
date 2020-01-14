@@ -56,8 +56,11 @@ From [Read the docs](https://setuptools.readthedocs.io/en/latest/setuptools.html
 
 Some of the python magic is achieved through binary dependencies. Some of the tools used to bring those in the interpreter are:
 
+* [cpython c extension](https://docs.python.org/3/extending/extending.html)
 * [ctypes](https://docs.python.org/3/library/ctypes.html) - loads shared libraries using the Foreing Function Interface (FFI)
+* [cffi](https://cffi.readthedocs.io/en/latest/index.html)
 * [cython](https://cython.org/) -  optimising static compiler for both the Python programming language and the extended Cython programming language
 * [pybind11](https://github.com/pybind/pybind11) - seamless operability between C++11 and Python
 * [numba](http://numba.pydata.org/numba-doc/latest/index.html)
    - http://gouthamanbalaraman.com/blog/optimizing-python-numba-vs-cython.html
+   - relies on [llvmlite](https://pypi.org/project/llvmlite/)
