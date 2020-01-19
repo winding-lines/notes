@@ -41,3 +41,51 @@ Use [ctypes](https://docs.python.org/3/library/ctypes.html) and
 * ffmpeg
 * sdf
 * input hooks
+
+## ipywidgets
+
+Some of these are integrated with [ipywidgets](https://ipywidgets.readthedocs.io/en/latest/index.html).
+
+Install and debub courtesy of [ipyvolume issue#102](https://github.com/maartenbreddels/ipyvolume/issues/102#issuecomment-358641450)
+
+Install steps from fresh venv creation, less may be needed 
+```
+pip install jupyter
+pip install jupyterlab
+jupyter labextension install @jupyter-widgets/jupyterlab-manager
+jupyter lab --no-browser
+```
+
+Debug from command line
+```
+jupyter labextension list
+```
+
+Debug in notebook
+```
+import ipywidgets
+ipywidgets.FloatSlider()
+```
+
+## ipyvolume
+
+* docs: https://ipyvolume.readthedocs.io/en/latest/index.html
+* github: https://github.com/maartenbreddels/ipyvolume
+* SciPy 2018 presentation: https://www.youtube.com/watch?v=hOKa8klJPyo
+
+## Other
+
+
+
+* [yt](http://yt-project.org/)
+
+* [plotly](https://github.com/plotly/plotly.py) ()
+
+* [itk-jupyter-widgets](https://github.com/banesullivan/itk-jupyter-widgets)
+
+* [K3D-jupyter](https://github.com/K3D-tools/K3D-jupyter)
+
+* [pytreejs](https://github.com/jupyter-widgets/pythreejs) (ipywidgets)
+  - A Python / ThreeJS bridge utilizing the Jupyter widget infrastructure.
+  - scene graph library
+  

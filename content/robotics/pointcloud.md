@@ -89,3 +89,8 @@ A related approach is [Real time correlative scan matching](https://april.eecs.u
 * pcd: http://pointclouds.org/documentation/tutorials/pcd_file_format.php
 * ply: https://en.wikipedia.org/wiki/PLY_(file_format)
 * stl: https://en.wikipedia.org/wiki/STL_(file_format)
+
+
+## Competitions datasets
+
+Multiple Object Tracking Benchmark: https://motchallenge.net/
