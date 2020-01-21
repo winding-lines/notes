@@ -83,6 +83,9 @@ algorithms implemented by PCL
 
 A related approach is [Real time correlative scan matching](https://april.eecs.umich.edu/media/pdfs/olson2009icra.pdf)
 
+## Papers
+
+https://paperswithcode.com/task/3d-object-detection/codeless
 
 ## Data formats
 
